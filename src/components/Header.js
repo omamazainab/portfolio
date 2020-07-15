@@ -7,7 +7,7 @@ import './../App.css'
 
 const Header = () => {
 
-    const { ref, playState } = useWebAnimations({ ...backInDown });
+    const { ref } = useWebAnimations({ ...backInDown });
 
     return (
         <>
