@@ -17,7 +17,7 @@
 
 .nav{
     font-weight:600;
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 
@@ -26,6 +26,14 @@
   color: black;
   text-decoration: none;
 
+}
+
+.down-arrow{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 340px;
+  left: 46%;
 }
 
 .noselect{
@@ -46,5 +54,10 @@
   .about{
     top: 110px;
     font-size: 4vw;
+  }
+  .down-arrow{
+    width: 30px;
+    height: 30px;
+    top: 184px;
   }
 }

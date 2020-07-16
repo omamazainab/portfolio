@@ -1,10 +1,4 @@
 import React from 'react'
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-// } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
@@ -15,13 +9,13 @@ const NavBar = () => {
             <Navbar style={{ backgroundColor: 'transparent' }}>
 
                 <Nav className="mx-auto">
-                    <Nav.Link href='#abc'>
-                     Home
+                    <Nav.Link href='#abc' className="nav">
+                        Home
                     </Nav.Link>
-                    <Nav.Link >
+                    <Nav.Link  className="nav">
                         About
                     </Nav.Link>
-                    <Nav.Link >
+                    <Nav.Link  className="nav">
                         Contact
                     </Nav.Link>
                 </Nav>

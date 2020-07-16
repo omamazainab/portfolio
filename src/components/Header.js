@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import useWebAnimations, { backInDown } from "@wellyshen/use-web-animations";
 import Typist from 'react-typist';
 import './../App.css'
+import image from '../downarrow.png'
 
 
 const Header = () => {
@@ -21,6 +22,10 @@ const Header = () => {
             <Typist count={2} className="about noselect">
                 <i>  Software developer, </i>
             </Typist>
+
+            <a href="#section1">
+                <img src={image} alt="downarrow" className="down-arrow" />    
+            </a>
         </>
     )
 }
