@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <>
 
-            <Navbar style={{ backgroundColor: 'transparent' }}>
+            <Navbar style={{ backgroundColor: 'transparent' }} sticky="top">
 
                 <Nav className="mx-auto">
                     <Nav.Link href='#abc' className="nav">
