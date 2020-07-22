@@ -1,4 +1,4 @@
-import React, {useRef, useLayoutEffect} from 'react'
+import React from 'react'
 import Image from '../images/Omama Zainab.jpeg'
 // import useWebAnimations, { slideInUp } from "@wellyshen/use-web-animations";
 import AOS from 'aos';
@@ -17,8 +17,6 @@ const AboutMe = () => {
                     <h2 className="my-5 heading ">
                         About Me
                     </h2>
-                    
-                   
                         <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse a necessitatibus suscipit alias.
                     Labore mollitia sapiente accusamus natus eligendi sequi possimus ipsa veniam, commodi molestias
