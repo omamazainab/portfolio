@@ -19,11 +19,11 @@ const Header = () => {
             />
 
             <h1 className="myName noselect" ref={ref} ><span>Omama</span><span> Zainab.</span></h1>
-            <Typist count={2} className="about noselect">
+            <Typist count={0} className="about noselect" delay={0}>
                 <i>  Software developer, </i>
             </Typist>
 
-            <a href="">
+            <a href="#aboutme">
                 <img src={image} alt="downarrow" className="down-arrow" />    
             </a>
         </>
