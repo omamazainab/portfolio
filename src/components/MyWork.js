@@ -1,5 +1,6 @@
 import React from 'react'
-
+// import Right from '../images/rightarrow.png'
+import Left from '../images/leftarrow.png'
 
 const MyWork = () => {
     return (
@@ -14,6 +15,14 @@ const MyWork = () => {
                 <div className="col-md-3  mx-auto my-5 project-card" id="card3" data-aos="zoom-in-left">
                     
                 </div>
+            </div>
+            <div className="row">
+                <a href="#aboutme" className="mx-auto">
+                    <img src={Left} alt="back"  />
+                </a>
+                {/* <a href="#" className="mx-auto">
+                    <img src={Right} alt="forward" />
+                </a> */}
             </div>
         </div>
     )
