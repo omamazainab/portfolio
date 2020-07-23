@@ -1,4 +1,7 @@
-
+/* body {
+  height: 100%;
+  overflow-y: hidden;
+} */
 
 .myName {
   position: absolute;
@@ -7,7 +10,7 @@
   left: 30vw;
 }
 
-.about{
+.about {
   position: absolute;
   font-size: 2vw;
   top: 200px;
@@ -15,27 +18,27 @@
 }
 
 
-.nav{
-    font-weight:600;
-    color: black !important;
-    text-decoration: none;
+.nav {
+  font-weight: 600;
+  color: black !important;
+  text-decoration: none;
 }
 
-.nav:hover{
+.nav:hover {
   font-size: larger;
   color: black;
   text-decoration: none;
 }
 
-.navbar-active{
+.navbar-active {
   background-color: black !important;
 }
 
-.nav-active{
+.nav-active {
   color: white !important;
 }
 
-.down-arrow{
+.down-arrow {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -43,26 +46,40 @@
   left: 46%;
 }
 
-.noselect{
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
 @media only screen and (max-width: 600px) {
-  .myName{
-    top:137px;
+
+  /* body {
+    height: 100%;
+    overflow-y: none;
+ } */
+
+  .myName {
+    top: 137px;
     font-size: 7vw;
   }
-  .about{
+
+  .about {
     top: 110px;
     font-size: 4vw;
   }
-  .down-arrow{
+
+  .down-arrow {
     width: 30px;
     height: 30px;
     top: 184px;
