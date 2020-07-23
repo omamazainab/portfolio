@@ -1,7 +1,7 @@
-/* body {
+body {
   height: 100%;
   overflow-y: hidden;
-} */
+}
 
 .myName {
   position: absolute;
@@ -46,6 +46,18 @@
   left: 46%;
 }
 
+.project-card{
+  width: 12rem;
+  height: 12rem;
+  background:  url('./images/portfolio.png');
+  background-size: cover;
+}
+
+.project-card:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/portfolio.png');
+  background-size: cover;
+}
+
 .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -62,12 +74,14 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-@media only screen and (max-width: 600px) {
-
-  /* body {
+@media only screen and (max-width: 890px){
+  body {
     height: 100%;
-    overflow-y: none;
- } */
+    overflow-y: scroll;
+ }
+}
+
+@media only screen and (max-width: 600px) {
 
   .myName {
     top: 137px;

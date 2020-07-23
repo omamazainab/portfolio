@@ -1,5 +1,5 @@
 import React from 'react'
-import OmamaImage from '../images/Omama Zainab.jpeg'
+import OmamaImage from '../images/Omama.jpeg'
 import Right from '../images/rightarrow.png'
 import Left from '../images/leftarrow.png'
 
@@ -32,15 +32,15 @@ const AboutMe = () => {
                     
                     
                 </div>
-                <div className="col-md-6 my-5 " style={{ textAlign: 'center' }} data-aos="flip-left">
-                    <img src={OmamaImage} alt="me" className="img-thumbnail"  />
+                <div className="col-md-6 my-5 py-5" style={{ textAlign: 'center' }} data-aos="flip-left">
+                    <img src={OmamaImage} alt="me" className="img-thumbnail" style={{height:'50vh'}} />
                 </div>
             </div>
             <div className="row">
                 <a href="#header" className="mx-auto">
                     <img src={Left} alt="back"  />
                 </a>
-                <a href="#proects" className="mx-auto">
+                <a href="#myWork" className="mx-auto">
                     <img src={Right} alt="forward" />
                 </a>
             </div>

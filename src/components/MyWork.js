@@ -1,17 +1,18 @@
 import React from 'react'
+import GitHub from '../images/GitHub.png'
 
 const MyWork = () => {
     return (
-        <div classame="container">
-            <div classame="row">
-                <div classame="col-md-4">
-                
+        <div className="container mx-auto my-5 py-5" id="myWork" >
+            <div className="row my-5">
+                <div className="col-md-3 mx-auto my-5 project-card" id="card1" data-aos="zoom-in-right">
+                    
                 </div>
-                <div classame="col-md-4">
-                
+                <div className="col-md-3  mx-auto my-5 project-card" id="card2" data-aos="zoom-in">
+                    
                 </div>
-                <div classame="col-md-4">
-                
+                <div className="col-md-3  mx-auto my-5 project-card" id="card3" data-aos="zoom-in-left">
+                    
                 </div>
             </div>
         </div>
