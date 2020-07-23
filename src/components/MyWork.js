@@ -1,5 +1,5 @@
 import React from 'react'
-import GitHub from '../images/GitHub.png'
+
 
 const MyWork = () => {
     return (
