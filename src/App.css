@@ -46,31 +46,10 @@
   left: 46%;
 }
 
-/* .project-card{
-  width: 12rem;
-  height: 12rem;
-  background-size: cover;
-}
-
-.project-card:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/portfolio.png');
-  background-size: cover;
-} */
-
-#card1{
-  width: 100%;
-  height: 12rem;
-  background:  url('./images/nclab.png');
-  background-size: cover;
-}
-
-#card1:hover{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/nclab.png');
-  background-size: cover;
-}
 
 .flip-card {
-  background-color: transparent;
+  box-shadow: 15px 15px 30px black;
+  background-color: rgba(0,0,0,0.2);
   width: 300px;
   height: 300px;
   perspective: 1000px;
@@ -107,11 +86,15 @@
   background-color: black;
   color: white;
   transform: rotateY(180deg);
+  vertical-align: middle;
 }
 
-.work-link{
-  width: 12rem;
-  height: 12rem;
+i{
+  vertical-align: bottom;
+}
+
+.flip-card-back>div>a:hover{
+  text-decoration: none;
 }
 
 .noselect {

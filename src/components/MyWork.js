@@ -19,17 +19,23 @@ const MyWork = () => {
 
     return (
         <div className="container mx-auto my-5 py-5" id="myWork" >
-            <div className="row my-5">
+            <div className="row ">
 
                 <div className="col-lg-3 mx-auto" id="" data-aos="zoom-in-right">
 
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={NCLAB} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="https://nclab.neduet.edu.pk/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="https://nclab.neduet.edu.pk/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -37,43 +43,58 @@ const MyWork = () => {
                 </div>
 
                 <div className="col-lg-3  mx-auto" id="" data-aos="zoom-in">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={ShoeShop} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="http://shoeshop101.surge.sh/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://shoeshop101.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-lg-3 mx-auto " id="" data-aos="zoom-in-left">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={STYLEEE} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="https://styleee-style-forward.web.app/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="https://styleee-style-forward.web.app/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="row my-5">
+            <div className="row ">
 
                 <div className="col-lg-3 mx-auto" id="" data-aos="zoom-in-right">
 
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={ExpenseTracker} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="http://expense-tracker-app-omama.surge.sh/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://expense-tracker-app-omama.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,70 +102,78 @@ const MyWork = () => {
                 </div>
 
                 <div className="col-lg-3  mx-auto" id="" data-aos="zoom-in">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={TraCOVID} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="http://shoeshop101.surge.sh/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://shoeshop101.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-lg-3 mx-auto " id="" data-aos="zoom-in-left">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={muscicKit} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="https://js-and-css-music-kit.web.app/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="https://js-and-css-music-kit.web.app/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="row my-5">
+            <div className="row ">
 
                 <div className="col-lg-3 mx-auto" id="" data-aos="zoom-in-right">
 
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={RedQueen} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="http://red-queen_race-omamazainab.surge.sh/" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://red-queen_race-omamazainab.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-                {/* <div className="col-lg-3  mx-auto" id="" data-aos="zoom-in">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src={TraCOVID} alt="Avatar" style={{ width: '300px', height: '300px' }} />
-                            </div>
-                            <div class="flip-card-back">
-                                <a href="http://shoeshop101.surge.sh/" style={{ color: 'white' }}>view website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
 
                 <div className="col-lg-3 mx-auto " id="" data-aos="zoom-in-left">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
                                 <img src={FlexPanel} alt="Avatar" style={{ width: '300px', height: '300px' }} />
                             </div>
-                            <div class="flip-card-back">
-                                <a href="https://flex-panels-image-galler-58b1c.web.app" style={{ color: 'white' }}>view website</a>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="https://flex-panels-image-galler-58b1c.web.app" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
