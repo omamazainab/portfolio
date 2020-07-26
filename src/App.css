@@ -1,7 +1,7 @@
-body {
+/* body {
   height: 100%;
   overflow-y: hidden;
-}
+} */
 
 .myName {
   position: absolute;
@@ -104,8 +104,8 @@ body {
 }
 
 .flip-card-back {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   transform: rotateY(180deg);
 }
 
