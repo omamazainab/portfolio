@@ -2,7 +2,7 @@ import React from 'react'
 
 const Technologies = () => {
     return (
-        <div className="fluid-container tech-container my-5 py-5">
+        <div className="fluid-container tech-container my-5 py-5" id="tech">
             <div className="container sub-container row mx-auto">
                 <div className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-right"
      data-aos-offset="300"
@@ -47,8 +47,8 @@ const Technologies = () => {
                     </ul>
                 </div>
                 <div  className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-left"
-     data-aos-offset="500"
-     data-aos-duration="500">
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                 <h5 className="tech-headng">Tools</h5>
                     <ul  className="tech-list">
                         <li>Git</li>

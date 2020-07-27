@@ -26,14 +26,17 @@ const NavBar = () => {
             <Navbar style={{ backgroundColor: 'transparent' }} sticky="top" id="navbar">
 
                 <Nav className="mx-auto">
-                    <Nav.Link href='#abc' className="nav">
-                        Home
-                    </Nav.Link>
-                    <Nav.Link className="nav">
+                    <Nav.Link href='#aboutme' className="nav">
                         About
                     </Nav.Link>
-                    <Nav.Link className="nav">
-                        Contact
+                    <Nav.Link href='#myWork' className="nav">
+                        Projects
+                    </Nav.Link>
+                    <Nav.Link href='#tech' className="nav">
+                        Technologies
+                    </Nav.Link>
+                    <Nav.Link href='#contact' className="nav">
+                        Connect
                     </Nav.Link>
                 </Nav>
             </Navbar>
