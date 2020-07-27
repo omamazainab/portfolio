@@ -20,13 +20,8 @@ const AboutMe = () => {
                         About Me
                     </h2>
                         <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse a necessitatibus suscipit alias.
-                    Labore mollitia sapiente accusamus natus eligendi sequi possimus ipsa veniam, commodi molestias
-                    esse doloribus magnam quisquam error ex quam pariatur nobis soluta iusto?
-                    Iste laborum magnam, doloremque alias omnis, dicta quo consectetur corporis veritatis odit non.
-                    Odio quis nostrum sunt nesciunt impedit optio quidem delectus possimus vero nisi quia, suscipit
-                    minima recusandae ex, doloribus accusamus, fugit libero ratione. Expedita ea dolore soluta id
-                   
+                        
+                        Hello! I'm Omama Zainab, an undergraduate student at NED university of engineering and technology Karachi. I'm currently in my third year of bachelor's in software engineering. I consume much of my time working on self-projects associated with web technologies often and on their deployment. I relish learning new technologies and I continually try to keep myself updated.
                     
                         </p>
                     
