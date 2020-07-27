@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
+import './styles/contact.css';
+import './styles/tech.css'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import MyWork from './components/MyWork';
+import Technologies from './components/Technologies'
 import Contact from './components/ContactMe'
 import Footer from './components/Footer';
 
@@ -14,6 +17,7 @@ function App() {
       <Home />
       <AboutMe />
       <MyWork />
+      <Technologies />
       <Contact />
       <Footer />
     </div>

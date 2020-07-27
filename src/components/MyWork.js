@@ -7,7 +7,7 @@ import TraCOVID from '../images/TraCOVID.png'
 import FlexPanel from '../images/flexpanel.png'
 import muscicKit from '../images/music kit.png'
 import RedQueen from '../images/redQueen.png'
-import Left from '../images/leftarrow.png'
+// import Left from '../images/leftarrow.png'
 
 const MyWork = () => {
 
@@ -32,9 +32,9 @@ const MyWork = () => {
                                 <div>
                                     <a href="https://nclab.neduet.edu.pk/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
-                                <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
-                                </div>
+                                {/* <div>
+                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
+                                </div> */}
 
                             </div>
                         </div>
@@ -53,7 +53,7 @@ const MyWork = () => {
                                     <a href="http://shoeshop101.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/shoe-shop101" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const MyWork = () => {
                                     <a href="https://styleee-style-forward.web.app/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/STYLEE-website" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const MyWork = () => {
                                     <a href="http://expense-tracker-app-omama.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/Expense-Tracker-react-app" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -109,10 +109,10 @@ const MyWork = () => {
                             </div>
                             <div className="flip-card-back">
                                 <div>
-                                    <a href="http://shoeshop101.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                    <a href="http://tracovid.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/covid-19-tracker" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const MyWork = () => {
                                     <a href="https://js-and-css-music-kit.web.app/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/JS-and-CSS-music-kit" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ const MyWork = () => {
                                     <a href="http://red-queen_race-omamazainab.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/Red-Queen-s-Race-react-hooks" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
@@ -172,21 +172,14 @@ const MyWork = () => {
                                     <a href="https://flex-panels-image-galler-58b1c.web.app" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
                                 </div>
                                 <div>
-                                    <a href="" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i class="fa fa-github" ></i> view code</a>
+                                    <a href="https://github.com/omamazainab/Flex-panels-image-gallery" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <a href="#aboutme" className="mx-auto">
-                    <img src={Left} alt="back" />
-                </a>
-                {/* <a href="#" className="mx-auto">
-                    <img src={Right} alt="forward" />
-                </a> */}
-            </div>
+            
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js';
 import useWebAnimations, { backInDown } from "@wellyshen/use-web-animations";
 import Typist from 'react-typist';
-import './../App.css'
+// import './../styles/App.css'
 import image from './../images/downarrow.png'
 
 
