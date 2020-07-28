@@ -4,7 +4,7 @@ const Technologies = () => {
     return (
         <div className="fluid-container tech-container my-5 py-5" id="tech">
             <div className="container sub-container row mx-auto">
-                <div className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-right"
+                <div className="flex col-md-2 my-5 py-3 mx-auto feature-box" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
                     <h5 className="tech-headng">Languages</h5>
@@ -18,7 +18,7 @@ const Technologies = () => {
                         <li>PHP</li>
                     </ul>
                 </div>
-                <div  className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-up"
+                <div  className="flex col-md-3 my-5 py-3 mx-auto feature-box" data-aos="fade-up"
      data-aos-duration="500">
                     <h5 className="tech-headng">Framework And Libraries</h5>
                     <ul  className="tech-list">
@@ -34,7 +34,7 @@ const Technologies = () => {
                         <li>Pandas</li>
                     </ul>
                 </div>
-                <div  className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-down"
+                <div  className="flex col-md-3 my-5 py-3 mx-auto feature-box" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="500">
                     <h5 className="tech-headng">Database Technologies</h5>
@@ -46,7 +46,7 @@ const Technologies = () => {
                         <li>ORMs</li>
                     </ul>
                 </div>
-                <div  className="flex col-md-3 my-5 py-3 feature-box" data-aos="fade-left"
+                <div  className="flex col-md-2 my-5 py-3 mx-auto feature-box" data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
                 <h5 className="tech-headng">Tools</h5>

@@ -25,7 +25,12 @@
 
 .feature-box{
     background-color: white;
-    border: 2px solid black;
+
+}
+
+.feature-box:hover{
+    
+    transform: translateY(-1.5em) scale(1.03) !important;
 }
 
 @media only screen and (max-width: 767px){
