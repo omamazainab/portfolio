@@ -1,7 +1,6 @@
 import React from 'react'
 import OmamaImage from '../images/Omama.jpeg'
-import Right from '../images/rightarrow.png'
-import Left from '../images/leftarrow.png'
+
 
 import AOS from 'aos';
 
