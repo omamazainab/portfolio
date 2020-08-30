@@ -25,7 +25,8 @@ body {
 }
 
 .nav:hover {
-  font-size: larger;
+  /* font-size: larger; */
+  transform: scale(1.05);
   color: black;
   text-decoration: none;
 }

@@ -31,14 +31,7 @@ const AboutMe = () => {
                     <img src={OmamaImage} alt="me" className="img-thumbnail" style={{height:'50vh'}} />
                 </div>
             </div>
-            <div className="row">
-                <a href="#header" className="mx-auto">
-                    <img src={Left} alt="back"  />
-                </a>
-                <a href="#myWork" className="mx-auto">
-                    <img src={Right} alt="forward" />
-                </a>
-            </div>
+            
         </div>
     )
 }
