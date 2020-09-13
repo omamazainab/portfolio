@@ -25,7 +25,7 @@ const Technologies = () => {
                         <li>React</li>
                         <li>JQuery</li>
                         <li>Flask</li>
-                        <li>Django</li>
+                        <li>Vue</li>
                         <li>Bootstrap</li>
                         <li>Material UI</li>
                         <li>Materialize</li>

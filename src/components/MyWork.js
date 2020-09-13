@@ -8,6 +8,9 @@ import FlexPanel from '../images/flexpanel.png'
 import muscicKit from '../images/music kit.png'
 import RedQueen from '../images/redQueen.png'
 import ReactFlix from '../images/reactflix.png'
+import Netflix from '../images/netflixclone.png'
+import VueTodo from '../images/vuetodo.png'
+import QuizApp from '../images/quizapp.png'
 
 const MyWork = () => {
 
@@ -192,6 +195,67 @@ const MyWork = () => {
                                 </div>
                                 <div>
                                     <a href="https://github.com/omamazainab/Flex-panels-image-gallery" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div className="row ">
+
+                <div className="col-lg-3 mx-auto" id="" data-aos="zoom-in-right">
+
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <img src={Netflix} alt="Avatar" style={{ width: '300px', height: '300px' }} />
+                            </div>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://netflix-clone-omama.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/omamazainab/netflix-clone" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className="col-lg-3  mx-auto" id="" data-aos="zoom-in">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <img src={VueTodo} alt="Avatar" style={{ width: '300px', height: '300px' }} />
+                            </div>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://vue-todo-app-omama.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/omamazainab/Todo-App-Vue.js" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col-lg-3 mx-auto " id="" data-aos="zoom-in-left">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <img src={QuizApp} alt="Avatar" style={{ width: '300px', height: '300px' }} />
+                            </div>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="http://quizappreacttypescript.surge.sh/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/omamazainab/Quiz-App" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
                                 </div>
                             </div>
                         </div>
