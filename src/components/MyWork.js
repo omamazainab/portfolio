@@ -7,7 +7,7 @@ import TraCOVID from '../images/TraCOVID.png'
 import FlexPanel from '../images/flexpanel.png'
 import muscicKit from '../images/music kit.png'
 import RedQueen from '../images/redQueen.png'
-// import Left from '../images/leftarrow.png'
+import ReactFlix from '../images/reactflix.png'
 
 const MyWork = () => {
 
@@ -161,6 +161,25 @@ const MyWork = () => {
                 </div>
 
 
+                <div className="col-lg-3  mx-auto" id="" data-aos="zoom-in">
+                    <div className="flip-card mx-auto my-5">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <img src={ReactFlix} alt="Avatar" style={{ width: '300px', height: '300px' }} />
+                            </div>
+                            <div className="flip-card-back">
+                                <div>
+                                    <a href="https://salty-plateau-62097.herokuapp.com/" style={{ color: 'white', fontSize: '20px', display: 'inline-block', marginTop: '100px' }}> <i className="material-icons" style={{ color: 'white' }}>laptop</i> visit website</a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/omamazainab/Reactflix" style={{ color: 'white', fontSize: '20px', display: 'inline-block' }}> <i className="fa fa-github" ></i> view code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className="col-lg-3 mx-auto " id="" data-aos="zoom-in-left">
                     <div className="flip-card mx-auto my-5">
                         <div className="flip-card-inner">
@@ -179,7 +198,7 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 }
