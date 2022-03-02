@@ -4,7 +4,7 @@ const CopyRight = () => {
     return (
         <div>
             <h6>
-              ©2020 Omama Zainab
+              ©2022 Omama Zainab
             </h6>
         </div>
     )
